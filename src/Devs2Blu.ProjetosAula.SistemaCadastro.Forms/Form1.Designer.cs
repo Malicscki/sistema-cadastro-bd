@@ -30,20 +30,24 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblCGCCPF = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rdJuridica = new System.Windows.Forms.RadioButton();
             this.rdFisica = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.cboConvenio = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblCGCCPF = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.lblCGCCPF);
             this.groupBox1.Controls.Add(this.label2);
@@ -56,6 +60,35 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Formulário de Cadastro";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox3.Location = new System.Drawing.Point(433, 19);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(308, 358);
+            this.groupBox3.TabIndex = 11;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Endereço/Contato";
+            // 
+            // lblCGCCPF
+            // 
+            this.lblCGCCPF.AutoSize = true;
+            this.lblCGCCPF.Location = new System.Drawing.Point(9, 87);
+            this.lblCGCCPF.Name = "lblCGCCPF";
+            this.lblCGCCPF.Size = new System.Drawing.Size(49, 13);
+            this.lblCGCCPF.TabIndex = 10;
+            this.lblCGCCPF.Text = "CGCCPF";
+            this.lblCGCCPF.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(23, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Nome";
             // 
             // groupBox2
             // 
@@ -107,34 +140,22 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
             this.cboConvenio.Size = new System.Drawing.Size(104, 21);
             this.cboConvenio.TabIndex = 3;
             // 
-            // label2
+            // label3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Nome";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(9, 118);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Convênio";
             // 
-            // lblCGCCPF
+            // comboBox1
             // 
-            this.lblCGCCPF.AutoSize = true;
-            this.lblCGCCPF.Location = new System.Drawing.Point(9, 87);
-            this.lblCGCCPF.Name = "lblCGCCPF";
-            this.lblCGCCPF.Size = new System.Drawing.Size(49, 13);
-            this.lblCGCCPF.TabIndex = 10;
-            this.lblCGCCPF.Text = "CGCCPF";
-            this.lblCGCCPF.Visible = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.groupBox3.Location = new System.Drawing.Point(433, 19);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(308, 358);
-            this.groupBox3.TabIndex = 11;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Endereço/Contato";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(67, 110);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(104, 21);
+            this.comboBox1.TabIndex = 13;
             // 
             // Form1
             // 
@@ -164,6 +185,8 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
         private System.Windows.Forms.Label lblCGCCPF;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label3;
     }
 }
 
