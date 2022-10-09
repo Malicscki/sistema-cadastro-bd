@@ -11,7 +11,6 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        /// teste 7/10
         [STAThread]
         static void Main()
         {
