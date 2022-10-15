@@ -64,6 +64,7 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.gpFormCadastro.SuspendLayout();
             this.gpEnderecoCadastro.SuspendLayout();
             this.gpTipoPessoa.SuspendLayout();
@@ -359,6 +360,7 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
             // 
             // gpConteudo
             // 
+            this.gpConteudo.Controls.Add(this.checkedListBox1);
             this.gpConteudo.Controls.Add(this.gridPacientes);
             this.gpConteudo.Location = new System.Drawing.Point(376, 27);
             this.gpConteudo.Name = "gpConteudo";
@@ -416,6 +418,14 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(17, 30);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
+            this.checkedListBox1.TabIndex = 17;
             // 
             // Form1
             // 
@@ -483,6 +493,7 @@ namespace Devs2Blu.ProjetosAula.SistemaCadastro.Forms
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.MaskedTextBox txtCGCCPF;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 
